@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Formlaire d'inscription</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Inscrivez-vous</div>
+        <form action="#">
+            <div class="renseignement">
+                <div class="box">
+                    <span class="details">Nom</span>
+                    <input type="text" placeholder="Entrer votre nom" required>    
+                </div>
+                <div class="box">
+                    <span class="details">Prénom</span>
+                    <input type="text" placeholder="Entrer votre prénom" required>    
+                </div>
+                <div class="box">
+                    <span class="details">E-mail</span>
+                    <input type="text" placeholder="Entrer votre E-mail" required>    
+                </div>
+                <div class="box">
+                    <span class="details">Numéro de téléphone</span>
+                    <input type="text" placeholder="Entrer votre numéro de téléphone" required>    
+                </div>
+                <div class="box">
+                    <span class="details">Mot de passe</span>
+                    <input type="text" placeholder="Entrer votre de mot de passe" required>    
+                </div>
+                <div class="box">
+                    <span class="details">Confirme ton mot de passe</span>
+                    <input type="text" placeholder="Confirme mot de passe" required>    
+                </div>
+                <div class="genre-details">
+                    <input type="radio" name="genre" id="em-1">
+                    <input type="radio" name="genre" id="em-2">
+                    <input type="radio" name="genre" id="em-3">
+                    <span class="genre-titre">Genre</span>
+                    <div class="categorie">
+                        <label for="em-1">
+                            <span class="em one"></span>
+                            <span class="genre">Masculin</span>
+                        </label>
+                        <label for="em-2">
+                            <span class="em two"></span>
+                            <span class="genre">Féminin</span>
+                        </label>
+                        <label for="em-3">
+                            <span class="em three"></span>
+                            <span class="genre">Personnel</span>
+                        </label>   
+                    </div>   
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enregistrer">
+            </div>
+        </form>
+    </div>
+    <script src="JS/Script.js"></script>
+</body>
+</html>

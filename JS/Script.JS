@@ -29,7 +29,7 @@ if (registerForm) {
         users.push(newUser);
         localStorage.setItem("users", JSON.stringify(users));
         alert("✅ Inscription réussie !");
-        window.location.href = "Connexion.html";
+        window.location.href = "";
     });
 }
 
@@ -60,7 +60,7 @@ if (loginForm) {
         } else {
             alert("❌ Identifiants incorrects. Redirection vers l'inscription...");
             setTimeout(() => {
-                window.location.href = "inscription.html";
+                window.location.href = "index.html";
             }, 3000);
         }
     });
